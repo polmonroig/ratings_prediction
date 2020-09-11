@@ -9,11 +9,13 @@ After that you'll need to open the file web/index.html
 
 
 ## Requirements
+```
 numpy
 pandas
 scikit-learn
 nltk
 regex
-joblib 
+joblib
 flask
 flask-cors
+```
