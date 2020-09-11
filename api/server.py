@@ -38,10 +38,11 @@ def create_bow(data):
     df = df.fillna(0).astype(int)
     return df
 
-
+# Flask app defintion
 app = Flask(__name__)
 CORS(app)
 
+# load basic variables for classifier execution 
 classifier = load('../data/classifier.joblib')
 nltk.download('stopwords')
 stop_words = stopwords.words('english')
