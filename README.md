@@ -27,4 +27,5 @@ regex
 joblib
 flask
 flask-cors
+matplotlib 
 ```
