@@ -2,9 +2,10 @@
 
 
 ## Usage
-1. Run the bash script `run.sh` which creates the FLASK_APP environment variable and creates a python flask server api
-2. Open the web interface `web/index.html`
-3. (Optional) Instead of using the web interface use the curl command `curl -H "Content-Type: text/plain" -X POST -d "I love this dress" http://localhost:5000/api`
+1. Install required dependencies 
+2. Run the bash script `run.sh` which creates the FLASK_APP environment variable and creates a python flask server api
+3. Open the web interface `web/index.html`
+4. (Optional) Instead of using the web interface use the curl command `curl -H "Content-Type: text/plain" -X POST -d "I love this dress" http://localhost:5000/api`
 
 
 # Directories
